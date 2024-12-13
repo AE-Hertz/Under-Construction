@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mask-effect-active {
+}
+
+.mask-effect-inactive {
+  opacity: 0; 
+}
+
+:root {
+  --slate-900: #1e293b;
+  --white: #ffffff;
+}
