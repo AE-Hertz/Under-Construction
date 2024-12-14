@@ -60,7 +60,7 @@ export const MaskContainer = ({
                     maskSize: `${maskSize}px`,
                 }}
                 transition={{
-                    duration: 0,
+                    duration: 0.3,
                 }}
             >
                 <div className="absolute inset-0 bg-black h-full w-full z-0 opacity-50" />
