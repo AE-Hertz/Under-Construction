@@ -27,11 +27,11 @@ const UnderConstruction = () => {
         >
             <MaskContainer
                 revealText={
-                    <div className="text-center">
-                        <h1 className="text-4xl font-bold mb-4 text-blue-300">
+                    <div className="text-center px-4">
+                        <h1 className="lg:text-4xl text-3xl font-bold mb-4 text-blue-300">
                             Exciting updates coming your way!
                         </h1>
-                        <p className="text-lg font-medium">
+                        <p className="text-lg sm:text-base font-medium">
                             The project is constructing... Stay tuned for something amazing!
                         </p>
                     </div>
@@ -42,11 +42,11 @@ const UnderConstruction = () => {
                     isCursorInside ? "mask-effect-active" : "mask-effect-inactive"
                 }`}
             >
-                <div className="text-center">
-                    <h1 className="text-6xl font-bold transition duration-300 ease-in-out text-red-600">
+                <div className="text-center px-4">
+                    <h1 className="lg:text-6xl text-4xl font-bold transition duration-300 ease-in-out text-red-600">
                         Under Construction!
                     </h1>
-                    <p className="mt-4 text-xl">
+                    <p className="mt-4 lg:text-xl text-base">
                         We appreciate your patience while we build something awesome.
                     </p>
                 </div>
